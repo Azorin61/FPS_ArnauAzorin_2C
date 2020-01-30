@@ -5471,3 +5471,590 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.01.30-17.57.06:252][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Models/Swat/SwatAnim_BP]
 [2020.01.30-17.57.06:290][992]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/SwatAnim_BP_Auto6C304841E4FB114D6DE6F6D8E4E62C870.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/Autosaves/Game/ThirdPersonBP/Models/Swat/SwatAnim_BP_Auto6.uasset'
 [2020.01.30-17.57.06:291][992]LogFileHelpers: Auto-saving content packages took 0.056
+[2020.01.30-18.00.16:123][395]BlueprintLog: New page: Compile SwatAnim_BP
+[2020.01.30-18.00.16:129][395]LogBlueprint: Warning: [Compiler SwatAnim_BP] Walk/Run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2020.01.30-18.00.16:387][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.01.30-18.00.48:617][976]BlueprintLog: New page: Compile SwatAnim_BP
+[2020.01.30-18.00.48:865][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.01.30-18.01.02:681][690]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.30-18.01.02:693][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-18.01.02:693][690]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.30-18.01.02:694][690]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2020.01.30-18.01.02:947][690]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.01.30-18.01.02:948][690]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2020.01.30-18.01.02:948][690]PIE: New page: PIE session: ThirdPersonExampleMap (30 ene. 2020 20:01:02)
+[2020.01.30-18.01.02:949][690]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.30-18.01.02:961][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011838s)
+[2020.01.30-18.01.02:962][690]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.30-18.01.02:962][690]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2020.01.30-18.01.02:962][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013426s)
+[2020.01.30-18.01.03:000][690]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.30-18.01.03:001][690]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.30-18.01.03:001][690]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.30-18.01.03:001][690]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Name: Realtek Digital Output (Realtek High Definition Audio)
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Is Default: Yes
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: Channel Order:
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.30-18.01.03:008][690]LogAudioMixer: Display: 1: FrontRight
+[2020.01.30-18.01.03:024][690]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2020.01.30-18.01.03:026][690]LogInit: FAudioDevice initialized.
+[2020.01.30-18.01.03:038][690]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.30-18.01.03:040][690]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.01.30-19.01.03
+[2020.01.30-18.01.03:041][690]LogWorld: Bringing up level for play took: 0.001601
+[2020.01.30-18.01.03:041][690]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.01.30-18.01.03:043][690]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,296
+[2020.01.30-18.01.03:043][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-18.01.19:626][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-18.01.19:626][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-18.01.19:626][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-18.01.19:626][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.30-18.01.19:627][231]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.30-18.01.19:627][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-18.01.19:627][231]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.01.19:627][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-18.01.19:655][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.30-18.01.19:656][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-18.01.19:661][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-18.01.19:695][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-18.01.19:698][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.30-18.01.19:703][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.01.30-18.01.19:732][232]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.01.30-18.02.51:941][956]BlueprintLog: New page: Compile SwatAnim_BP
+[2020.01.30-18.02.52:191][956]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.01.30-18.04.08:396][ 68]BlueprintLog: New page: Compile SwatAnim_BP
+[2020.01.30-18.04.08:648][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.01.30-18.05.59:794][524]BlueprintLog: New page: Compile SwatAnim_BP
+[2020.01.30-18.06.00:048][524]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2020.01.30-18.06.21:978][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Models/Swat/SwatAnim_BP" FILE="../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/SwatAnim_BP.uasset" SILENT=true
+[2020.01.30-18.06.22:031][192]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/SwatAnim_BP49A6A7894D2CA3CE383CD0B64DB87D62.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/SwatAnim_BP.uasset'
+[2020.01.30-18.06.22:055][192]AssetCheck: New page: Asset Save: SwatAnim_BP
+[2020.01.30-18.06.22:055][192]LogContentValidation: Display: Validating AnimBlueprint /Game/ThirdPersonBP/Models/Swat/SwatAnim_BP.SwatAnim_BP
+[2020.01.30-18.06.23:744][260]LogSlate: Window 'SwatAnim_BP' being destroyed
+[2020.01.30-18.06.23:784][260]LogSlate: Window 'SwatAnim_BP' being destroyed
+[2020.01.30-18.06.23:811][260]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.23:811][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-18.06.23:814][260]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.23:814][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-18.06.23:946][260]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.23:946][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-18.06.26:715][455]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.01.30-18.06.26:967][455]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/ThirdPersonExampleMap8DDED98A484BCA7276CF05BCCF5C5A12.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.30-18.06.27:176][455]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/ThirdPersonExampleMap_BuiltDataB076754A4B17888772CE368EF7756063.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.01.30-18.06.27:193][455]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.30-18.06.27:193][455]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.30-18.06.27:193][455]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.01.30-18.06.29:645][633]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.01.30-18.06.33:653][633]LogSlate: Window 'Save Content' being destroyed
+[2020.01.30-18.06.33:728][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/ThirdPersonCharacter6E4B76F8404CB427FBD5738369F9FE2A.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.01.30-18.06.33:752][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/crouching_turn_90_leftB4D6B0394602FF30AE97ABA940B1E929.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/crouching_turn_90_left.uasset'
+[2020.01.30-18.06.33:783][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/crouching_turn_90_rightA30A11F740FC46C69D038A90852FF336.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/crouching_turn_90_right.uasset'
+[2020.01.30-18.06.33:849][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_crouching_headshot_front411A3E6C44D2B4F20754B09FFDA97A46.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_crouching_headshot_front.uasset'
+[2020.01.30-18.06.33:889][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_from_back_headshot697047224D16666777CADB983D05433C.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_from_back_headshot.uasset'
+[2020.01.30-18.06.33:927][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_from_front_headshotD8D7AEA341E0183327FDFE8A1A3464F0.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_from_front_headshot.uasset'
+[2020.01.30-18.06.33:986][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_from_right639FF9464BA1B56B5101359462BD2458.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_from_right.uasset'
+[2020.01.30-18.06.34:043][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_from_the_back7997DD454674413B3331B4821C99E44B.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_from_the_back.uasset'
+[2020.01.30-18.06.34:101][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/death_from_the_frontE2B40A7645726FFA04F1F5AF77796688.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/death_from_the_front.uasset'
+[2020.01.30-18.06.34:111][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Models/Swat/Animations/idle" FILE="../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/idle.uasset" SILENT=true
+[2020.01.30-18.06.34:120][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/idle2174055441D3D5AAF2962FB144E1F1FC.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/idle.uasset'
+[2020.01.30-18.06.34:139][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/idle_aimingA43411C7460B383CCB2EFF865993A711.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/idle_aiming.uasset'
+[2020.01.30-18.06.34:159][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/idle_crouchingE5A3B1374F0F8D3B9B412A9E16C8EB05.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/idle_crouching.uasset'
+[2020.01.30-18.06.34:178][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/idle_crouching_aimingEC951EBF447C29FBDFA9B8B46CB2F95A.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/idle_crouching_aiming.uasset'
+[2020.01.30-18.06.34:201][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/jump_downB7641BAA41FBC801AD36A8A3280630D3.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/jump_down.uasset'
+[2020.01.30-18.06.34:220][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/jump_loop9CA73D6B40CA49AA47ACDE9598E6B4BC.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/jump_loop.uasset'
+[2020.01.30-18.06.34:244][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/jump_up6B3ED57D47E3B8EB75DCDF85B97CF548.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/jump_up.uasset'
+[2020.01.30-18.06.34:282][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/reloading_inPlace7792498043561E3E9D676F85F4943BB6.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/reloading_inPlace.uasset'
+[2020.01.30-18.06.34:307][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_backward_inPlace0E729A08431642288C4E21B22B4E2298.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_backward_inPlace.uasset'
+[2020.01.30-18.06.34:331][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_backward_left_inPlaceF88F367F45357366EE8412860854F9EE.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_backward_left_inPlace.uasset'
+[2020.01.30-18.06.34:351][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_backward_right_inPlaceA1093AF24852E1039C6356BAF8FBE3E2.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_backward_right_inPlace.uasset'
+[2020.01.30-18.06.34:371][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_forward_inPlaceD61459954FE63E076839178151F7D834.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_forward_inPlace.uasset'
+[2020.01.30-18.06.34:390][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_forward_left_inPlace134D1ACC473ECFE09DA104A942864A37.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_forward_left_inPlace.uasset'
+[2020.01.30-18.06.34:413][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_forward_right_inPlace5F609BA542100B857C4CAF9EF7B91B5A.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_forward_right_inPlace.uasset'
+[2020.01.30-18.06.34:431][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_left_inPlace4258221741F4C2E0C4F50898933FBA7F.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_left_inPlace.uasset'
+[2020.01.30-18.06.34:450][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/run_right_inPlace309EA7184D29B4BD9EB5719ECF6934E5.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/run_right_inPlace.uasset'
+[2020.01.30-18.06.34:470][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_backward_inPlace73597D6E4BDA806FBD86A885E50E6B3E.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_backward_inPlace.uasset'
+[2020.01.30-18.06.34:496][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_backward_left_inPlace14E955F648CF1F0B3D452DBF6BEFC05F.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_backward_left_inPlace.uasset'
+[2020.01.30-18.06.34:518][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_backward_right_inPlaceC916C64A43416764C076C68E839DCDEA.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_backward_right_inPlace.uasset'
+[2020.01.30-18.06.34:542][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_forward_inPlaceFF95FAF2468FF02CD97ADD94BBD96B32.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_forward_inPlace.uasset'
+[2020.01.30-18.06.34:568][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_forward_left_inPlace9996325A4829E2F4FDD50582D23D3B96.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_forward_left_inPlace.uasset'
+[2020.01.30-18.06.34:588][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_forward_right_inPlaceC9115F0740F4A41E402FDC88159D0AF9.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_forward_right_inPlace.uasset'
+[2020.01.30-18.06.34:607][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_left_inPlaceAD3C3F674D8FF41B338DDC88D1ACDA05.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_left_inPlace.uasset'
+[2020.01.30-18.06.34:644][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/sprint_right_inPlace16EB5BA6426F5CACFD9E93B745E13668.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/sprint_right_inPlace.uasset'
+[2020.01.30-18.06.34:663][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/turn_90_left77F6B6AB4DC477EEC55DCE925F8D7B9C.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/turn_90_left.uasset'
+[2020.01.30-18.06.34:683][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/turn_90_right6AA7891D4186F57E4DD00C8AAF43C893.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/turn_90_right.uasset'
+[2020.01.30-18.06.34:703][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_backward_inPlace710B00BB4098CDFBFC502D8A2FFE5E6A.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_backward_inPlace.uasset'
+[2020.01.30-18.06.34:726][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_backward_left_inPlaceA01F88AE4D7A1087EB29A1A8CAEE6B6F.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_backward_left_inPlace.uasset'
+[2020.01.30-18.06.34:745][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_backward_right_inPlace802D5CDC40A5402B1129B9BE0B5DE5D9.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_backward_right_inPlace.uasset'
+[2020.01.30-18.06.34:765][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_backward_inPlace2BF0550F45ED35C3F072D8829CF569AC.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_inPlace.uasset'
+[2020.01.30-18.06.34:789][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_backward_left_inPA8602864447BCE85A211B08E6977B0E2.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_left_inPlace.uasset'
+[2020.01.30-18.06.34:811][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_backward_right_in9A810E9841A4B705E026F0A088AE8490.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_right_inPlace.uasset'
+[2020.01.30-18.06.34:835][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_forward_inPlace04E529DF4EEC90D73494EEACDE2402D3.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_inPlace.uasset'
+[2020.01.30-18.06.34:856][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_forward_left_inPl9C1374F241013BDA2C2ADCAD4CE43562.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_left_inPlace.uasset'
+[2020.01.30-18.06.34:874][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_forward_right_inPB721D4E54F8C820C7B404CBC03CBDC38.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_right_inPlace.uasset'
+[2020.01.30-18.06.34:892][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_left_inPlaceF62EB1BC4A1346712CD582A7FD742218.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_left_inPlace.uasset'
+[2020.01.30-18.06.34:911][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_crouching_right_inPlaceE7BF1D724139F4D0C1B124A4B01C9DA6.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_crouching_right_inPlace.uasset'
+[2020.01.30-18.06.34:931][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_forward_inPlaceB7F01DAB4A904D96601088B2A540EFB2.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_forward_inPlace.uasset'
+[2020.01.30-18.06.34:950][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_forward_left_inPlace225D81B4468C984FD81F1CA513EBF798.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_forward_left_inPlace.uasset'
+[2020.01.30-18.06.34:968][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_forward_right_inPlaceD0032E9F4EFCE0171F257BA305D2AE84.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_forward_right_inPlace.uasset'
+[2020.01.30-18.06.34:997][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_left_inPlace0E67B2784CAD9564F6C326A5AA14D28E.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_left_inPlace.uasset'
+[2020.01.30-18.06.35:019][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/walk_right_inPlace0BCCC97B4BF163F5095478A5114B645B.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Animations/walk_right_inPlace.uasset'
+[2020.01.30-18.06.35:029][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Models/Swat/Swat" FILE="../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Swat.uasset" SILENT=true
+[2020.01.30-18.06.35:087][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/Swat57244E2E4EB1FD9CBEC44CA8E422BE39.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Swat.uasset'
+[2020.01.30-18.06.35:111][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/Swat_PhysicsAssetBBBA3141450AFE2B383131BCB031D4F5.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Swat_PhysicsAsset.uasset'
+[2020.01.30-18.06.35:117][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Models/Swat/Swat_Skeleton" FILE="../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Swat_Skeleton.uasset" SILENT=true
+[2020.01.30-18.06.35:127][633]LogSavePackage: Moving '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Saved/Swat_Skeleton25F4F87B43D83354D265C29AE7E209DE.tmp' to '../../../../../../Azorin/FPS_ArnauAzorin_2C/FPS/Content/ThirdPersonBP/Models/Swat/Swat_Skeleton.uasset'
+[2020.01.30-18.06.35:182][633]LogSlate: Window 'FPS - Unreal Editor' being destroyed
+[2020.01.30-18.06.35:183][633]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.30-18.06.35:647][633]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/crouching_turn_90_left.crouching_turn_90_left
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/crouching_turn_90_right.crouching_turn_90_right
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_crouching_headshot_front.death_crouching_headshot_front
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_from_back_headshot.death_from_back_headshot
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_from_front_headshot.death_from_front_headshot
+[2020.01.30-18.06.35:647][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_from_right.death_from_right
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_from_the_back.death_from_the_back
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/death_from_the_front.death_from_the_front
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/idle.idle
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/idle_aiming.idle_aiming
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/idle_crouching.idle_crouching
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/idle_crouching_aiming.idle_crouching_aiming
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/jump_down.jump_down
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/jump_loop.jump_loop
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/jump_up.jump_up
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/reloading_inPlace.reloading_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_backward_inPlace.run_backward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_backward_left_inPlace.run_backward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_backward_right_inPlace.run_backward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_forward_inPlace.run_forward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_forward_left_inPlace.run_forward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_forward_right_inPlace.run_forward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_left_inPlace.run_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/run_right_inPlace.run_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_backward_inPlace.sprint_backward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_backward_left_inPlace.sprint_backward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_backward_right_inPlace.sprint_backward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_forward_inPlace.sprint_forward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_forward_left_inPlace.sprint_forward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_forward_right_inPlace.sprint_forward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_left_inPlace.sprint_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/sprint_right_inPlace.sprint_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/turn_90_left.turn_90_left
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/turn_90_right.turn_90_right
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_backward_inPlace.walk_backward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_backward_left_inPlace.walk_backward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_backward_right_inPlace.walk_backward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_inPlace.walk_crouching_backward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_left_inPlace.walk_crouching_backward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_backward_right_inPlace.walk_crouching_backward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_inPlace.walk_crouching_forward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_left_inPlace.walk_crouching_forward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_forward_right_inPlace.walk_crouching_forward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_left_inPlace.walk_crouching_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_crouching_right_inPlace.walk_crouching_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_forward_inPlace.walk_forward_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_forward_left_inPlace.walk_forward_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_forward_right_inPlace.walk_forward_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_left_inPlace.walk_left_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Models/Swat/Animations/walk_right_inPlace.walk_right_inPlace
+[2020.01.30-18.06.35:648][633]LogContentValidation: Display: Validating SkeletalMesh /Game/ThirdPersonBP/Models/Swat/Swat.Swat
+[2020.01.30-18.06.35:649][633]LogContentValidation: Display: Validating PhysicsAsset /Game/ThirdPersonBP/Models/Swat/Swat_PhysicsAsset.Swat_PhysicsAsset
+[2020.01.30-18.06.35:649][633]LogContentValidation: Display: Validating Skeleton /Game/ThirdPersonBP/Models/Swat/Swat_Skeleton.Swat_Skeleton
+[2020.01.30-18.06.35:653][634]Cmd: QUIT_EDITOR
+[2020.01.30-18.06.35:653][634]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.01.30-18.06.35:663][634]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.01.30-18.06.35:663][634]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-18.06.35:845][634]LogExit: Preparing to exit.
+[2020.01.30-18.06.36:341][634]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:344][634]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:346][634]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:347][634]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:348][634]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:349][634]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:350][634]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:350][634]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.01.30-18.06.36:351][634]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:356][634]LogDirectoryWatcher: A directory notification failed for 'C:/Azorin/FPS_ArnauAzorin_2C/FPS/Content/', and we were unable to create a new request.
+[2020.01.30-18.06.36:372][634]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.01.30-18.06.36:390][634]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-18.06.36:390][634]LogExit: Editor shut down
+[2020.01.30-18.06.36:390][634]LogExit: Transaction tracking system shut down
+[2020.01.30-18.06.36:665][634]LogExit: Object subsystem successfully closed.
+[2020.01.30-18.06.36:691][634]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module AnimationEditor (710)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module PinnedCommandList (708)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module SkeletonEditor (706)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (704)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module Voice (702)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module BlueprintGraph (700)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module AddContentDialog (696)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module WidgetCarousel (695)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module EditorWidgets (692)
+[2020.01.30-18.06.36:720][634]LogModuleManager: Shutting down and abandoning module CollectionManager (690)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module SceneOutliner (688)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MeshBuilder (684)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (682)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module FoliageEdit (680)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module LandscapeEditor (678)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MeshPaintMode (676)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (674)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module ActorPickerMode (672)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module GeometryMode (670)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module TextureAlignMode (668)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module BspMode (666)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (664)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (662)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AutomationWorker (660)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module SteamVREditor (658)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module OculusMR (656)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (612)
+[2020.01.30-18.06.36:721][634]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (610)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (608)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module CharacterAI (606)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module SmartSnapping (604)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module SessionServices (602)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module MeshPaint (600)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module ViewportSnapping (598)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module ViewportInteraction (596)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module ClothPainter (594)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (593)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module LogVisualizer (590)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module IntroTutorials (588)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (587)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (584)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (582)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (580)
+[2020.01.30-18.06.36:722][634]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (579)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (576)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (574)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (572)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (570)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (568)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (566)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module InputBindingEditor (564)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module MergeActors (562)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (560)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module LocalizationService (559)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module HardwareTargeting (556)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (554)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module UndoHistory (552)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module XmlParser (550)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module Blutility (548)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (546)
+[2020.01.30-18.06.38:569][634]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (545)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (542)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module SettingsEditor (540)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module ProjectLauncher (538)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module SessionFrontend (536)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module ProfilerClient (534)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module DeviceManager (532)
+[2020.01.30-18.06.38:570][634]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (531)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module AutomationController (528)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module AutomationWindow (526)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module Layers (524)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (522)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module DetailCustomizations (520)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module PackagesDialog (518)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (516)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module Persona (514)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (513)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module AnimGraph (511)
+[2020.01.30-18.06.38:603][634]LogModuleManager: Shutting down and abandoning module Kismet (508)
+[2020.01.30-18.06.38:612][634]LogModuleManager: Shutting down and abandoning module KismetWidgets (507)
+[2020.01.30-18.06.38:612][634]LogModuleManager: Shutting down and abandoning module GraphEditor (504)
+[2020.01.30-18.06.38:612][634]LogModuleManager: Shutting down and abandoning module StructViewer (502)
+[2020.01.30-18.06.38:612][634]LogModuleManager: Shutting down and abandoning module ClassViewer (500)
+[2020.01.30-18.06.38:614][634]LogModuleManager: Shutting down and abandoning module Toolbox (498)
+[2020.01.30-18.06.38:614][634]LogModuleManager: Shutting down and abandoning module ModuleUI (496)
+[2020.01.30-18.06.38:614][634]LogModuleManager: Shutting down and abandoning module OutputLog (494)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module GammaUI (492)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module Documentation (490)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module ToolMenus (488)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module LiveCoding (486)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module LevelSequence (484)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (482)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module MovieScene (480)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (478)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module LauncherPlatform (476)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module AnalyticsET (474)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module PortalServices (472)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module PortalRpc (470)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module MessagingRpc (468)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (466)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module AIModule (464)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
+[2020.01.30-18.06.38:615][634]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (456)
+[2020.01.30-18.06.38:618][634]LogModuleManager: Shutting down and abandoning module ProfilerService (454)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module TaskGraph (452)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module ScreenshotTools (450)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (448)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module OculusEditor (444)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module OculusInput (442)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (440)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module EditableMesh (438)
+[2020.01.30-18.06.38:649][634]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (436)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module CableComponent (434)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (431)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AssetTags (428)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.01.30-18.06.38:650][634]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.01.30-18.06.38:651][634]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.01.30-18.06.38:651][634]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.01.30-18.06.38:651][634]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.01.30-18.06.38:651][634]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.01.30-18.06.38:752][634]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.01.30-18.06.38:853][634]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.01.30-18.06.38:853][634]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.01.30-18.06.38:853][634]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.01.30-18.06.38:854][634]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.01.30-18.06.38:854][634]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.01.30-18.06.38:854][634]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.01.30-18.06.38:854][634]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.01.30-18.06.38:855][634]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.01.30-18.06.38:856][634]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.01.30-18.06.38:856][634]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.01.30-18.06.38:856][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.01.30-18.06.38:856][634]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.01.30-18.06.38:856][634]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.01.30-18.06.38:858][634]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.01.30-18.06.38:859][634]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.01.30-18.06.38:861][634]LogDerivedDataCache: Shutdown
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.01.30-18.06.38:861][634]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.01.30-18.06.38:862][634]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.01.30-18.06.38:862][634]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.01.30-18.06.38:862][634]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.01.30-18.06.38:864][634]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.01.30-18.06.38:865][634]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.01.30-18.06.38:866][634]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.01.30-18.06.38:876][634]LogHMD: Freeing OpenVRDLLHandle.
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.01.30-18.06.38:876][634]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.01.30-18.06.38:877][634]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.01.30-18.06.38:877][634]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.01.30-18.06.38:912][634]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.01.30-18.06.38:912][634]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.30-18.06.38:912][634]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B599AAD94-49A8-95A6-747A-D59A605F72B3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.0-10570792%2B%2B%2BUE4%2BRelease-4.24&UserID=deeaad27416bcfe755c5cb821983dfd1%7Cac10bb8943c44d8e9f0dac7396755b35%7Ca72a9bb7-2c78-4c00-8e5e-45cffa16cd3f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.01.30-18.06.38:942][634]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.01.30-18.06.38:945][634]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.01.30-18.06.38:948][634]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.01.30-18.06.38:950][634]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.01.30-18.06.38:951][634]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.01.30-18.06.38:951][634]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.01.30-18.06.38:951][634]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.01.30-18.06.38:951][634]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.01.30-18.06.38:955][634]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.01.30-18.06.38:955][634]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.01.30-18.06.38:955][634]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.01.30-18.06.38:956][634]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.01.30-18.06.38:982][634]LogD3D11RHI: Shutdown
+[2020.01.30-18.06.38:982][634]LogD3D11RHI: CleanupD3DDevice
+[2020.01.30-18.06.38:994][634]LogExit: Exiting.
+[2020.01.30-18.06.39:014][634]Log file closed, 01/30/20 19:06:39
